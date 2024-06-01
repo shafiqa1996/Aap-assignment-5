@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us</title>
+  <style>
+    
+    .navigation-menu {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background-color: #333;
+      color: #fff;
+      padding: 10px 20px;
+      z-index: 999;
+    }
+
+    .navigation-menu ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+    }
+
+    .navigation-menu li {
+      margin: 0 10px;
+    }
+
+    .navigation-menu a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+   
+    .about-container {
+      width: 800px;
+      max-width: 90%;
+      margin: 100px auto;
+      background-color: #fff;
+      padding: 30px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .about-container h1 {
+      text-align: center;
+      margin-top: 0;
+    }
+
+    .about-container p {
+      line-height: 1.6;
+    }
+    
+        img {
+  width: 800px;
+  height: 400px;
+}
+.row {
+  display:flex;
+}
+.product-image {
+  flex-basis: calc(50% - 10px);
+}
+
+.product-image img {
+  width: 50%;
+  height: auto;
+}
+.product-detail {
+  flex-basis: calc(50% - 10px);
+  margin-left: 20px;
+}
+.related-product {
+  flex-basis: calc(25% - 10px);
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  background-color: white;
+}
+
+.related-product img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+
+.related-product-name p {
+  margin: 0;
+  text-align: center;
+}
+.main-image-caption {
+      background-color: pink;
+      padding: 20px;
+      margin-top: 20px;
+      text-align: center;
+      width: 1000px;
+    }
+    
+    .main-image-caption {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      background-color:skyblue;
+      padding: 10px;
+      font-size: 14px;
+    }
+    .main-image-container:hover .main-image-caption {
+      opacity: 1;
+      overflow: hidden;
+    }
+    
+
+
+
+
+
+
+    
+
+
+    
+  </style>
+</head>
+<body>
+  <nav class="navigation-menu">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="#">Products</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+  <div class="about-container">
+    <h1>About Us</h1>
+    <p>Welcome to our company! Android Inc. was founded in Palo Alto, California, in October 2003 by Andy Rubin, Rich Miner, Nick Sears, and Chris White.[14][15] Rubin described the Android project as having "tremendous potential in developing smarter mobile devices that are more aware of its owner's location and preferences".[15] The early intentions of the company were to develop an advanced operating system for digital cameras, and this was the basis of its pitch to investors in April 2004.[16] The company then decided that the market for cameras was not large enough for its goals, and five months later it had diverted its efforts and was pitching Android as a handset operating system that would rival Symbian and Microsoft Windows Mobile.</p>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfbcJxr9YVcq8htZSv7xavFvup_9jNjxe6LQ&s">
+  </div>
+  <img src="https://www.macworld.com/wp-content/uploads/2023/12/iphone-android-main-100868123-orig.jpg?quality=50&strip=all" alt="Main Image">
+  <div class="main-image-caption">
+    <p>This is the main image of our company</p>
+  
+  </div>
+  <h2>Team Members</h2>
+  <div class="row">
+    <div class="related-product">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbcP0C7TtpHnL3UfPe1ppZH3zC7wASG0SHWg&s" alt="Related Product 1">
+      <div class="related-product-name">
+        <h3>John Doe</h3>
+        <p>CEO</p>
+        <p>john has 4 years work experiance in our company. </p>
+      </div>
+    </div>
+    <div class="related-product">
+      <img src="https://media.licdn.com/dms/image/C4E22AQELG-v3BdC1sg/feedshare-shrink_800/0/1674480592493?e=2147483647&v=beta&t=z9iPI0a0lGQyKN4SsKs2CgDJbgIH1ezraJX4AQsPUmg" alt="Related Product 2">
+      <div class="related-product-name">
+        <h3>Jane Smith</h3>
+        <p>Marketing Manager</p>
+        <p>Jane is our marketing genius. She has a keen eye for trends and strategies that help us reach our target audience and increase brand awareness.</p>
+      </div>
+    </div>
+    <div class="footer">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+      
+        <p>2023 our Company. All rights reserved.</p>
+      </div>
+</body>
+</html>
