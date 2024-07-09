@@ -16,11 +16,14 @@ body {
   }
   .product-image {
     flex-basis: calc(50% - 10px);
+    
+    
   }
   
   .product-image img {
     width: 100%;
     height: auto;
+  
   }
   
   .promo-code {
@@ -52,6 +55,7 @@ body {
     margin: 10px;
     border: 1px solid #ccc;
     background-color: white;
+    position:relative;   
   }
   
   .related-product img {
@@ -74,21 +78,28 @@ body {
     font-weight: bold;
   }
   
-/* Default state - hide related-product-name */
+
 .related-product-name {
+    text-align:center;
     position: absolute;
     bottom: 0;
+    left:0;
+    right:0;
     width: 100%;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color:red;
+    color:black;
     padding: 10px;
     box-sizing: border-box;
-    opacity: 0;
+    opacity: 0.9;
     transition: opacity 0.3s ease;
+    visibility:hidden;
+
   }
   
   /* Show related-product-name on hover */
   .related-product:hover .related-product-name {
-    opacity: 1;
+    visibility:visible;
+
   }
   
   /* Position the navigation menu at the top */
