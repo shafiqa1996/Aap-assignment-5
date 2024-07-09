@@ -102,15 +102,34 @@ body {
 
   }
   
-  /* Position the navigation menu at the top */
-  .navigation-menu {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
-    box-sizing: border-box;
-    z-index: 999;
-  }  
+
+ .navigation-menu {
+  position:fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  padding: 8px;
+  z-index:999;
+}
+
+.navigation-menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.navigation-menu li {
+  margin: 0 10px;
+}
+
+.navigation-menu a {
+  color: white;
+  text-decoration: none;
+}
+
+
+
